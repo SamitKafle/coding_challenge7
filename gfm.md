@@ -244,16 +244,16 @@ results_lsmeans
     ## Results are averaged over the levels of: DaysAfterPlanting 
     ## P value adjustment: tukey method for comparing a family of 9 estimates
 
-\*Treatment 2 is significantly different from all other treatments,
+*Treatment 2 is significantly different from all other treatments,
 having the lowest emergence (emmean = 55.6). Treatments 6, 3, and 5 had
 the highest emergence (emmean ≈ 199–201) and are statistically grouped
 in group 3, indicating they are significantly different from Treatment 2
-and likely Treatment 7.
+and likely Treatment 7.*
 
-Treatments 1, 4, 8, and 9 fall in group “23”, meaning they are not
-significantly different from either group 2 or group 3. This suggests
-intermediate performance — not as low as Treatment 2 and not as high as
-the top-performing treatments.\*
+*Treatments 1, 4, 8, and 9 fall in group “23”, meaning they are not
+significantly different from either group 2 or group 3. Treatment
+7(mean=188) is intermediate, significantly better than treatment 2 but
+not as high as the top group*
 
 **5. 4 pts. The provided function lets you dynamically add a linear
 model plus one factor from that model and plots a bar chart with letters
