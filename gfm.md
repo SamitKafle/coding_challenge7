@@ -165,9 +165,9 @@ anova(model_simple)
 number of emerged plants under treatment1 at the reference level of
 Days**
 
-\*\*The coeffiecient for Treatment 2 is -134.53, indicating that
-Treatment 2 had, on average, 134.53 fewer emerged plants than Treatment
-1 (p\<0.001), indicating strong negative effect on emergence.
+**The coeffiecient for Treatment 2 is -134.53, indicating that Treatment
+2 had, on average, 134.53 fewer emerged plants than Treatment 1
+(p\<0.001), indicating strong negative effect on emergence.**
 
 **4. 5 pts. Calculate the least square means for Treatment using the
 emmeans package and perform a Tukey separation with the compact letter
