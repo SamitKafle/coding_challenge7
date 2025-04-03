@@ -3,8 +3,7 @@ title: "Codingchallenge7"
 author: "Samit Kafle"
 date: "`r Sys.Date()`"
 output:
-  md_document:
-    variant: gfm
+  pdf_document:
 ---
 Link to github: [click here](https://github.com/SamitKafle/coding_challenge7.git)
 
@@ -76,7 +75,7 @@ results_lsmeans
 *Treatments 1, 4, 8, and 9 fall in group “23”, meaning they are not significantly different from either group 2 or group 3. Treatment 7(mean=188) is intermediate, significantly better than treatment 2 but not as high as the top group*
 
 
-**5.	4 pts. The provided function lets you dynamically add a linear model plus one factor from that model and plots a bar chart with letters denoting treatment differences. Use this model to generate the plot shown below. Explain the significance of the letters. **
+**5.	4 pts. The provided function lets you dynamically add a linear model plus one factor from that model and plots a bar chart with letters denoting treatment differences. Use this model to generate the plot shown below. Explain the significance of the letters.**
 ```{r}
 plot_cldbars_onefactor <- function(lm_model, factor) {
   data <- lm_model$model

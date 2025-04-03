@@ -258,7 +258,7 @@ not as high as the top group*
 **5. 4 pts. The provided function lets you dynamically add a linear
 model plus one factor from that model and plots a bar chart with letters
 denoting treatment differences. Use this model to generate the plot
-shown below. Explain the significance of the letters. **
+shown below. Explain the significance of the letters.**
 
 ``` r
 plot_cldbars_onefactor <- function(lm_model, factor) {
